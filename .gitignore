@@ -1,0 +1,17 @@
+# Ignore environment files
+backend/.env
+frontend/.env
+*.env
+
+# Ignore dependency folders
+node_modules/
+vendor/
+
+# Ignore build & logs
+dist/
+build/
+logs/
+*.log
+
+# Ignore Docker files
+docker/*.env
